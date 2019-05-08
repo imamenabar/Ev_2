@@ -1,5 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
 #menu{
 	position: fixed;
 	bottom:2rem;
 	right:2.5rem;
+}
+
+.bg-azul
+{
+	background: rgba(10, 0, 130, 0.5);
+}
+
+body
+{
+	background: #FFD1D6 ;
+	font-family: 'Questrial', sans-serif;
+
+}
+h2
+{
+	font-variant: small-caps;
+
 }
