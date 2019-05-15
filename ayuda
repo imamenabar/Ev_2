@@ -1,0 +1,20 @@
+
+
+var a = ["Hola mundo!","Adiós mundo cruel!"]
+
+var b = {saludo:["Hola mundo!", "Holi gente"], despedida:"Adiós mundo cruel!"}
+
+var c = [
+  {saludo:"hola mundo!",chroma:"red"},
+  {saludo: "holi gente",chroma:"blue"},
+  {saludo: "h...",chroma:"green"}
+]
+$("h1").text(c[2].saludo) .css("color","pink"); <!--para llamar a "h.."-->
+
+$("h1").text(b.saludo[1]) .css("color","pink"); <!--para llamar a "Holi gente"-->
+
+$("h1").text(a[1]) .css("color","pink"); <!--para llamar a "Hola mundo"-->
+
+$("h1").text(c[2].saludo) .css("color",c[2].chroma); <!--para llamar a "h..." y que sea verde-->
+
+  <--!$("#cuestiones").append('<h2>'+"| "+curso[0].nombre+ " | "+ '</h2>').append('<h4>'+curso[0].ingreso+'</h4>').append('<img src="'+curso[0].trabajos[0].imagen+'">');-->

@@ -8,17 +8,39 @@
 
 .bg-azul
 {
-	background: rgba(10, 0, 130, 0.5);
+	background: #5745FF;
 }
 
 body
 {
 	background: #FFD1D6 ;
 	font-family: 'Questrial', sans-serif;
+	color: #5745FF;
+
 
 }
-h2
+h1
 {
-	font-variant: small-caps;
+color: #FF0F0F;
+text-shadow: 2px 3px 0px #FF9696;
+
+
+}
+h5
+{
+text-decoration: underline;
+
+}
+
+h3
+{
+	color: #FFD9D9;
+background-color:#FF9696;
+text-center;
+}
+
+h4
+{
+	font-family: 'Questrial', sans-serif;
 
 }
